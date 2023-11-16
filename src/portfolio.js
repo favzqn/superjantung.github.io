@@ -35,10 +35,10 @@ const greeting = {
 const socialMediaLinks = {
   github: "https://github.com/superjantung",
   linkedin: "https://www.linkedin.com/in/fauzan-fathurrahman/",
-  gmail: "fauzan08fauzan@gmail.com",
+  gmail: "fauzanf.work@gmail.com",
   // gitlab: "https://gitlab.com/",
-  facebook: "https://www.facebook.com/jantung08 ",
-  medium: "https://medium.com/@superjantungg",
+  // facebook: "https://www.facebook.com/jantung08 ",
+  medium: "https://medium.com/@fauzanf",
   // stackoverflow: "https://stackoverflow.com/users/",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
@@ -244,7 +244,7 @@ const workExperiences = {
       ]
     },
     {
-      role: "Lead Chatbot Engineer",
+      role: "Lead Chatbot Engineer (Part-time)",
       company: "Chatbiz (YC W21)",
       companylogo: require("./assets/images/chatbizLogo.png"),
       date: "Apr 2021 – Present",
@@ -257,7 +257,7 @@ const workExperiences = {
       ]
     },
     {
-      role: "Community Builder",
+      role: "Community Builder (Community)",
       company: "AWS",
       companylogo: require("./assets/images/awsLogo.png"),
       date: "Mar 2022 – Present",
@@ -292,13 +292,13 @@ To know how to get github key look at readme.md */
 
 const openSource = {
   showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Projects",
+  title: "Chatbot Projects",
   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
     {
@@ -321,22 +321,7 @@ const bigProjects = {
         "The Tarbiyah Sunnah Learning Chatbot offers quick access to class information, exams, and more. Features include user registration, FAQs, general info, class details, course updates, exams, grades, and an FAQ section.",
       footerLink: []
     },
-    {
-      image: require("./assets/images/movia.png"),
-      projectName: "[Chatbot] Movia",
-      projectDesc:
-        "Movia is a LINE virtual assistant that provides instant movie and staff information. It offers movie lists, TV series lists, details, credits, recommendations, similar movies, and staff/actor information.",
-      footerLink: [
-        //  you can add extra buttons here.
-      ]
-    },
-    {
-      image: require("./assets/images/hero.png"),
-      projectName: "[Chatbot] Hero - HR",
-      projectDesc:
-        "Hero is a smartphone virtual assistant that offers immediate responses and information about company announcements, policies, leave, reimbursements, complaints, salary slips, FAQs, and employee engagement surveys.",
-      footerLink: []
-    },
+
     {
       image: require("./assets/images/vita.png"),
       projectName: "[Chatbot] VITA - Kemenparekraf",
@@ -348,31 +333,28 @@ const bigProjects = {
     },
     {
       image: require("./assets/images/edenfarm.jpg"),
-      projectName: "Edenfarm",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "http://nextu.se/"
-        }
-      ]
+      projectName: "[Chatbot] Edeline - Edenfarm",
+      projectDesc:
+        "Introducing our Edenfarm chatbot – your grocery shopping companion and customer service expert, all in one. Effortlessly order groceries and get instant support with just a chat.",
+      footerLink: []
     },
     {
       image: require("./assets/images/isuzu.jpg"),
-      projectName: "Isuzu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      projectName: "[Chatbot] Rangga - Isuzu",
+      projectDesc:
+        "This chatbot offers a range of functionalities for you, including FAQs, customer support, emergency assistance, service bookings, and spare parts requests. It's your all-in-one Isuzu solution, designed for your convenience.",
       footerLink: [
         {
           name: "Visit Website",
           url: "http://saayahealth.com/"
         }
-        //  you can add extra buttons here.
       ]
     },
     {
       image: require("./assets/images/sbm.jpg"),
-      projectName: "SBM ITB",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      projectName: "[Chatbot] Aura - SBM ITB",
+      projectDesc:
+        "The SBM ITB Chatbot simplifies your university journey with FAQs, study program details, easy program registration, and direct access to our support team, all in one convenient platform. Explore SBM ITB effortlessly with this versatile chatbot.",
       footerLink: [
         {
           name: "Visit Website",
@@ -382,8 +364,9 @@ const bigProjects = {
     },
     {
       image: require("./assets/images/itb.jpg"),
-      projectName: "ITB",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      projectName: "[Chatbot] ITB",
+      projectDesc:
+        "The ITB Chatbot is your all-in-one solution for registration and study program inquiries, providing guidance on requirements, enrollment, fees, deadlines, program options, and educational costs.",
       footerLink: [
         {
           name: "Visit Website",
@@ -393,7 +376,7 @@ const bigProjects = {
     },
     {
       image: require("./assets/images/sharinghappiness.jpg"),
-      projectName: "Sharing Happiness",
+      projectName: "[Chatbot] Hepi- Sharing Happiness",
       projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
       footerLink: [
         {
@@ -404,7 +387,7 @@ const bigProjects = {
     },
     {
       image: require("./assets/images/surface.jpg"),
-      projectName: "Surface Skin Habit",
+      projectName: "[Chatbot] Sasha - Surface Skin Habit",
       projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
       footerLink: [
         {
@@ -415,7 +398,7 @@ const bigProjects = {
     },
     {
       image: require("./assets/images/baraya.jpg"),
-      projectName: "Baraya Travel",
+      projectName: "[Chatbot] Pamela - Baraya Travel",
       projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
       footerLink: [
         {
@@ -426,7 +409,7 @@ const bigProjects = {
     },
     {
       image: require("./assets/images/aragon.jpg"),
-      projectName: "Aragon Travel",
+      projectName: "[Chatbot] Artra - Aragon Travel",
       projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
       footerLink: [
         {
@@ -438,7 +421,7 @@ const bigProjects = {
 
     {
       image: require("./assets/images/dt.jpg"),
-      projectName: "Daarut Tauhiid",
+      projectName: "[Chatbot] - Daarut Tauhiid",
       projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
       footerLink: [
         {
@@ -449,7 +432,7 @@ const bigProjects = {
     },
     {
       image: require("./assets/images/loreal.jpg"),
-      projectName: "L'Oréal",
+      projectName: "[Chatbot] - L'Oréal",
       projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
       footerLink: [
         {
@@ -458,20 +441,10 @@ const bigProjects = {
         }
       ]
     },
-    {
-      image: require("./assets/images/retailkita.jpg"),
-      projectName: "RetailKita",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "http://nextu.se/"
-        }
-      ]
-    },
+
     {
       image: require("./assets/images/yakes.jpg"),
-      projectName: "Yayasan Kesehatan Telkom",
+      projectName: "[Chatbot] Kesya - Yayasan Kesehatan Telkom",
       projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
       footerLink: [
         {
@@ -482,7 +455,7 @@ const bigProjects = {
     },
     {
       image: require("./assets/images/zahir.jpg"),
-      projectName: "Zahir",
+      projectName: "[Chatbot] - Zahir",
       projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
       footerLink: [
         {
@@ -493,7 +466,7 @@ const bigProjects = {
     },
     {
       image: require("./assets/images/dropezy.jpg"),
-      projectName: "Dropezy",
+      projectName: "[Chatbot] - Dropezy",
       projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
       footerLink: [
         {
@@ -504,7 +477,7 @@ const bigProjects = {
     },
     {
       image: require("./assets/images/halofina.jpg"),
-      projectName: "Halofina",
+      projectName: "[Chatbot] - Halofina",
       projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
       footerLink: [
         {
@@ -513,6 +486,69 @@ const bigProjects = {
         }
       ]
     },
+    {
+      image: require("./assets/images/nextuLogo.webp"),
+      projectName: "[Chatbot] - Kino",
+      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "http://nextu.se/"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/nextuLogo.webp"),
+      projectName: "[Chatbot] - Rumah Sakit Permata",
+      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "http://nextu.se/"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/nextuLogo.webp"),
+      projectName: "[Chatbot] - Tunas BMW",
+      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "http://nextu.se/"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/nextuLogo.webp"),
+      projectName: "[Chatbot] Mira - Mitsubishi",
+      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "http://nextu.se/"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/nextuLogo.webp"),
+      projectName: "[Chatbot] Dr.Merck - Merck",
+      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "http://nextu.se/"
+        }
+      ]
+    }
+  ],
+  display: true // Set false to hide this section, defaults to true
+};
+
+const projects = {
+  title: "Other Projects",
+  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  projects: [
     {
       image: require("./assets/images/nextuLogo.webp"),
       projectName: "Howel&Co",
@@ -524,50 +560,7 @@ const bigProjects = {
         }
       ]
     },
-    {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Kino",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "http://nextu.se/"
-        }
-      ]
-    },
-    {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Rumah Sakit Permata",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "http://nextu.se/"
-        }
-      ]
-    },
-    {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Tunas BMW",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "http://nextu.se/"
-        }
-      ]
-    },
-    {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Mitsubishi",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "http://nextu.se/"
-        }
-      ]
-    },
+
     {
       image: require("./assets/images/nextuLogo.webp"),
       projectName: "Kemnaker",
@@ -589,29 +582,16 @@ const bigProjects = {
           url: "http://nextu.se/"
         }
       ]
-    },
-    {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Merck",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "http://nextu.se/"
-        }
-      ]
     }
   ],
   display: true // Set false to hide this section, defaults to true
 };
-
 // Achievement Section
 // Include certificates, talks etc
 
 const achievementSection = {
   title: emoji("Achievements And Certifications 🏆 "),
-  subtitle:
-    "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
+  subtitle: "Achievements, Certifications that I have",
 
   achievementsCards: [
     {
@@ -696,7 +676,7 @@ const contactInfo = {
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
   number: "+62-895351290060",
-  email_address: "fauzan08fauzan@gmail.com"
+  email_address: "fauzanf.work@gmail.com"
 };
 
 // Twitter Section
@@ -719,6 +699,7 @@ export {
   workExperiences,
   openSource,
   bigProjects,
+  projects,
   achievementSection,
   blogSection,
   talkSection,
