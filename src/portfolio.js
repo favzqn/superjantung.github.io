@@ -426,7 +426,8 @@ const bigProjects = {
     {
       image: require("./assets/images/dt.jpg"),
       projectName: "[Chatbot] - Daarut Tauhiid",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      projectDesc:
+        "Welcome to Daarut Tauhid, where giving is simplified. Access our bank details for easy donations, explore impactful programs, and support our mission seamlessly. Connect directly with our support team through the Call Center feature for prompt assistance.",
       footerLink: [
         {
           name: "Visit Website",
