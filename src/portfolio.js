@@ -376,8 +376,9 @@ const bigProjects = {
     },
     {
       image: require("./assets/images/sharinghappiness.jpg"),
-      projectName: "[Chatbot] Hepi- Sharing Happiness",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      projectName: "[Chatbot] Hepi - Sharing Happiness",
+      projectDesc:
+        "This chatbot streamlines your experience with features like instant FAQs, direct customer support, easy campaign donations via a secure gateway. It's designed for effortless interactions, prioritizing clarity, support, and convenience.",
       footerLink: [
         {
           name: "Visit Website",
@@ -388,7 +389,8 @@ const bigProjects = {
     {
       image: require("./assets/images/surface.jpg"),
       projectName: "[Chatbot] Sasha - Surface Skin Habit",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      projectDesc:
+        "The Surface Chatbot offers quick solutions with an FAQ section, seamless handover to customer support, easy access to the price list, personalized face skin treatment consultations, and exclusive promotional updates.",
       footerLink: [
         {
           name: "Visit Website",
@@ -399,7 +401,8 @@ const bigProjects = {
     {
       image: require("./assets/images/baraya.jpg"),
       projectName: "[Chatbot] Pamela - Baraya Travel",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      projectDesc:
+        "Baraya Chatbot – your gateway to seamless travel experiences. Enjoy exclusive promos and effortlessly book your travels via chatbot. Select your destination, choose your preferred seat, and complete the payment.",
       footerLink: [
         {
           name: "Visit Website",
@@ -410,7 +413,8 @@ const bigProjects = {
     {
       image: require("./assets/images/aragon.jpg"),
       projectName: "[Chatbot] Artra - Aragon Travel",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      projectDesc:
+        "Aragon Chatbot – your gateway to seamless travel experiences. Enjoy exclusive promos and effortlessly book your travels via chatbot. Select your destination, choose your preferred seat, and complete the payment.",
       footerLink: [
         {
           name: "Visit Website",
@@ -551,7 +555,7 @@ const projects = {
   projects: [
     {
       image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Howel&Co",
+      projectName: "XXX",
       projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
       footerLink: [
         {
@@ -563,7 +567,7 @@ const projects = {
 
     {
       image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Kemnaker",
+      projectName: "XXX",
       projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
       footerLink: [
         {
@@ -574,7 +578,7 @@ const projects = {
     },
     {
       image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Covid19",
+      projectName: "XXX",
       projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
       footerLink: [
         {
